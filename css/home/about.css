@@ -1,6 +1,6 @@
 .about {
   background-image: url("../../img/home/about-background.jpg");
-  background-position: center;
+  background-position: left;
   background-size: cover;
   background-attachment: fixed;
 }
