@@ -1,0 +1,77 @@
+.why-us-container {
+  background: var(--background-color);
+}
+
+.why-us-info {
+  max-width: 1340px;
+  margin: 0 auto;
+  padding: 60px 20px 60px 20px;
+}
+
+.why-us-info h2 {
+  font-size: 0.87rem;
+  font-weight: 500;
+  line-height: 1px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  color: var(--color-3);
+  font-family: "Poppins", sans-serif;
+}
+
+.why-us-info h3 {
+  font-size: 36px;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  color: var(--color-2);
+  margin-bottom: 40px;
+}
+
+.card-list {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  flex-wrap: nowrap;
+}
+
+.card-list li {
+  width: fit-content;
+  padding: 50px 30px;
+  background: var(--secondary-color);
+  transition: 1s;
+}
+
+.card-list li:hover{
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.card-list span{
+  display: block;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--color-2);
+  font-family: "Open Sans", sans-serif;
+}
+
+.card-list h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 20px 0;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.card-list p {
+  color: var(--color-3);
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+}
+
+@media (max-width: 820px) {
+  .card-list {
+    flex-direction: column;
+  }
+  .card-list li {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}

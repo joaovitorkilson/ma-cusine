@@ -1,0 +1,15 @@
+:root {
+  --primary-color: #CDA45E;
+  --secondary-color: #1A1814;
+  --background-color: #0C0B09;
+  --bg-transparent: rgba(12, 11, 9, .6);
+
+  --color-1: #FFF;
+  --color-2: #CDA45E;
+  --color-3: #AAA;
+
+  --font-1: 'Open Sans', sans-serif;
+  --font-2:  "Poppins";
+  --font-3: 'Playfair Display';
+  
+}

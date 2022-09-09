@@ -1,10 +1,11 @@
 
-/* gerais */
-@import "./component.css";
+/* GERAL */
+@import "./component.css"; 
+@import "./utils/colors.css";
 
 
-
-/* HOME */
-@import "./home/home.css";
-@import "./home/about.css";
+/* SECTIONS */
+@import "./styles/home.css";
+@import "./styles/about.css";
+@import "./styles/whyus.css";
 

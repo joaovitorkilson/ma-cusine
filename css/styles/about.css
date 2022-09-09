@@ -1,8 +1,6 @@
 .about {
-  background-image: url("../../img/home/about-background.jpg");
-  background-position: center;
+  background: url("../../img/home/about-background.jpg") center center;
   background-size: cover;
-  background-attachment: fixed;
 }
 
 
@@ -128,12 +126,16 @@
 }
 
 
+@media (min-width: 1024px) {
+  .about {
+    background-attachment: fixed;
+  }
+}
 
 @media (max-width: 1200px) {
   .about-container {
     max-width: 900px;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
     padding-left: 50px;
     padding-right: 50px;
 
