@@ -1,7 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+
 
 /* Header */
 
@@ -36,7 +33,7 @@
     position: relative;
     display: flex;
     align-items: center;
-    font-family: var(--font-1);
+    font-family: var(--text-font);
     font-size: 0.875rem;
     color: var(--color-1);
 }
@@ -59,7 +56,7 @@
 }
 
 .language {
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--text-font);
     color: var(--color-1);
     z-index: 0;
 }
@@ -95,7 +92,7 @@
     height: 72px;
 }
 .menu h1 {
-    font-family: var(--font-2);
+    font-family: var(--title-font);
     font-size: 1.75rem;
     line-height: 1;
     font-weight: 300;
@@ -113,7 +110,7 @@
 .menu a {
     text-decoration: none;
     color: var(--color-1);
-    font-family: var(--font-1);
+    font-family: var(--text-font);
     transition: .3s;
 
 }
@@ -143,7 +140,7 @@ nav.active {
 }
 
 nav.active ul {
-    background-color: #0C0B09;
+    background-color: var(--background-color);
     padding: 20px;
     border-radius: 5px;
     display: flex;
@@ -195,7 +192,7 @@ nav.active li:last-child::after {
     font-size: 3rem;
     font-weight: 700;
     line-height: 56px;
-    font-family: var(--font-2);
+    font-family: var(--title-font);
     color: var(--color-1);
 }
 .welcome span {
@@ -203,7 +200,7 @@ nav.active li:last-child::after {
 }
 
 .welcome-info p {
-    font-family: var(--font-3);
+    font-family: var(--subtitle-font);
     font-size: 22px;
     font-weight: 500;
     line-height: 1.2;

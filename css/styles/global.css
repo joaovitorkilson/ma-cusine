@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.title-2 {
+  font-size: 0.87rem;
+  font-weight: 500;
+  line-height: 1px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  color: var(--color-3);
+  font-family: var(--title-font);
+}
+
+.title-2-detail::after {
+  content: '';
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 4px 10px;
+}
+
+.title-3 {
+  font-size: 36px;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  color: var(--color-2);
+  margin-bottom: 40px;
+}

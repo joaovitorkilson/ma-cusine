@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css" />
+    
     <title>Ma Cusine | Culinária Francesa</title>
   </head>
   <body id="home">
@@ -88,24 +89,30 @@
       <section class="why-us">
         <div class="why-us-container">
           <div class="why-us-info">
-            <h2>Por que nós</h2>
-            <h3>Porque Escolher o Nosso Restaurante</h3>
-            <div class="card">
+            <h2 class="title-2-detail title-2">Por que nós</h2>
+            <h3 class="title-3">Porque Escolher o Nosso Restaurante</h3>
+            <div class="cards">
               <ul class="card-list">
                 <li>
-                  <span>01</span>
-                  <h4>Lorem Ipsum</h4>
-                  <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+                  <div class="card">
+                    <span>01</span>
+                    <h4>Lorem Ipsum</h4>
+                    <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+                  </div>
                 </li>
                 <li>
-                  <span>02</span>
-                  <h4>Repellat Nihil</h4>
-                  <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
+                  <div class="card">
+                    <span>02</span>
+                    <h4>Repellat Nihil</h4>
+                    <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
+                  </div>
                 </li>
                 <li>
-                  <span>03</span>
-                  <h4>Ad ad velit qui</h4>
-                  <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
+                  <div class="card">
+                    <span>03</span>
+                    <h4>Ad ad velit qui</h4>
+                    <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
+                  </div>
                 </li>
               </ul>
             </div>
@@ -113,8 +120,55 @@
         </div>
       </section>
 
+      <section class="food-menu">
+        <div class="food-menu-container">
+            <div class="food-menu-info">
+              <h2 class="title-2-detail title-2">menu</h2>
+              <h3 class="title-3">Dê uma conferida no nosso Menu</h3>
+            </div>
+
+            <div class="food-menu-filter">
+              <ul>
+                <li>Todos</li>
+                <li>Entradas</li>
+                <li>Saladas</li>
+                <li>Especialidades</li>
+              </ul>
+            </div>
+
+            <div class="food-menu-items">
+              <ul class="food-menu-list">
+
+                <li>
+                  <div class="food-menu-image">
+                    <img src="./img/menu/lobster-bisque.jpg" alt="Lobster Bisque">
+                  </div>
+
+                  <div class="food-menu-info">
+                    <h3>Lobster Bisque</h3>
+                    <p>Lorem, deren, trataro, filede, nerada</p>
+                  </div>
+                  <span class="food-menu-price">$5,95</span>
+                </li>
+                <li>
+                  <div class="food-menu-image">
+                    <img src="./img/menu/lobster-bisque.jpg" alt="Lobster Bisque">
+                  </div>
+
+                  <div class="food-menu-info">
+                    <h3>Lobster Bisque</h3>
+                    <p>Lorem, deren, trataro, filede, nerada</p>
+                  </div>
+                  <span class="food-menu-price">$5,95</span>
+                </li>
+
+              </ul>
+            </div>
+        </div>
+      </section>
+
     </main>
   
-  <script src="./js/script.js"></script>
+  <script src="./js/script.js" type="module"></script>
   </body>
 </html>
