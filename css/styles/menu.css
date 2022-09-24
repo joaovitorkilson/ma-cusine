@@ -36,21 +36,67 @@
   color: var(--primary-color);
 }
 
+.food-menu-filter li.activeButton {
+  color: var(--color-2);
+}
+
+
 .food-menu-list {
   display: grid;
   grid-template-columns: 1fr 1fr;
-}
-
-.food-menu-list {
+  gap: 40px 30px;
+  margin-top: 50px;
   list-style: none;
-  color: aliceblue;
+  color: var(--color-1);
 }
 
+.active-item {
+  display: grid !important;
+}
 .food-menu-list li {
-  display: grid;
+  display: none;
   grid-template-columns: auto 1fr auto;
   gap: 20px;
+}
+
+.food-menu-item-info h3 {
+  font-family: var(--text-font);
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: .3s;
   
+}
+.food-menu-item-info h3:hover {
+  color: var(--color-2);
+}
+.food-menu-item-info p {
+  font-family: var(--title-font);
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.875rem;
+}
+
+.food-menu-price {
+  font-family: var(--text-font);
+  font-size: 1rem;
+  color: var(--color-2);
+  font-weight: 600;
+  background: var(--secondary-color);
+  padding-left: 20px;
+  z-index: 1;
+
+}
+.food-menu-item-info h3::after {
+  content: '';
+  background: url('/img/menu/menu-detail.svg');
+  width: 21vw;
+  height: 1px;
+  position: absolute;
+  left: 150px;
+  top: 10px;
 }
 
 
@@ -60,8 +106,6 @@
 .food-menu-image img {
   width: 100%;
   border-radius: 50%;
+  border: 5px solid rgba(255, 255, 255, 0.2);
 }
 
-.food-menu-price {
-  justify-self: end !important;
-}
