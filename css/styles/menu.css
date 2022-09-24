@@ -59,6 +59,15 @@
   gap: 20px;
 }
 
+.food-menu-items {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr; */
+}
+
+.mobile {
+  display: none;
+}
+
 .food-menu-item-info h3 {
   font-family: var(--text-font);
   font-weight: 700;
@@ -183,7 +192,12 @@
       display: block;
     }
 
-
+    .mobile {
+      display: grid;
+    }
+    .desktop {
+      display: none;
+    }
 
 
     .food-menu-item-info h3::after {
