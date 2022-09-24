@@ -109,3 +109,84 @@
   border: 5px solid rgba(255, 255, 255, 0.2);
 }
 
+.menu-subtitle {
+  display: none;
+}
+
+@media (max-width: 1050px) {
+    .food-menu-list {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+
+  }
+
+    .food-menu-item-info h3::after {
+    width: 60vw;
+  }
+
+}
+
+@media (max-width: 800px) {
+    .food-menu-list li {
+      display: none;
+      grid-template-columns: auto 400px auto;
+  }
+  .food-menu-image {
+    justify-self: center;
+  }
+  .food-menu-item-info h3::after {
+    width: 40vw;
+  }
+
+}
+
+@media (max-width: 650px) {
+    .food-menu-list li {
+      display: none;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 20px;
+      gap: 5px;
+      
+    }
+    .food-menu-list {
+      display: flex;
+      overflow-x: scroll;
+    }
+    .food-menu-list li {
+      justify-self: center;
+    }
+    .food-menu-price {
+      padding: 0;
+      justify-self: center;
+    }
+    .food-menu-item-info p {
+      display: none;
+    }
+    .food-menu-item-info {
+      text-align: center;
+      
+    }
+    .food-menu-image {
+      width: 200px;
+    }
+
+    .food-menu-filter li {
+      color: red;
+    }
+
+    .food-menu-filter {
+      display: none;
+    }
+    .menu-subtitle {
+      margin-top: 50px;
+      display: block;
+    }
+
+
+
+
+    .food-menu-item-info h3::after {
+      display: none;
+    }
+}
