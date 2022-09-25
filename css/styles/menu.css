@@ -100,7 +100,7 @@
 }
 .food-menu-item-info h3::after {
   content: '';
-  background: url('/img/menu/menu-detail.svg');
+  background: url('../../img/menu/menu-detail.svg');
   width: 21vw;
   height: 1px;
   position: absolute;
